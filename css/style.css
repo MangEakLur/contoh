@@ -314,4 +314,26 @@ footer .nav-links{
         grid-template-columns: repeat(2,1fr);
     }
 }
+/* Max-Width(991px) */
+@media (max-width:991px) {
+    /* Start Nav */
+    .logo {
+        display: none;
+    }
+    .nav-links{
+        justify-content: center;
+        width: 100%;
+    }
+    /* Start Experience */
+    .experience-container{
+        grid-template-columns: 1fr;
+    }
+}
+    /* Max-Width(768px) */
+@media (max-width:768px) {
+    /* Start Experience */
+    .experience-container{
+        grid-template-columns: 1fr;
+    }
+}
 /* ..................End Media Scrin................. */
