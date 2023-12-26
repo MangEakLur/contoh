@@ -211,7 +211,7 @@ section{
 }
 .arrow{
     position: absolute;
-    right: 10%;
+    right: 3%;
     transition: var(--transition);
     margin-top: 1.4rem;
 }
@@ -258,5 +258,24 @@ section{
 }
 .project img{
     border-radius: 30px;
+    margin-bottom: 1rem;
 }
 /* ..................End Project Section................. */
+
+
+/* ..................Start Contact Section................. */
+.contact-container{
+    max-width: 30rem;
+    border: 1px solid var(--color-dark-variant);
+    padding: 24px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email.linkedin{
+    display: flex;
+    align-items: center;
+    gap: -5rem;
+}
+/* ..................End Contact Section................. */
