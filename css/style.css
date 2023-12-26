@@ -121,6 +121,7 @@ nav{
     width: 100%;
     display: grid;
     place-items: center;
+    background: var(--color-white);
 }
 .nav-container{
     display: flex;
@@ -292,3 +293,25 @@ footer .nav-links{
     margin-bottom: 2rem;
 }
 /* ..................End Footer Section................. */
+
+
+/* ..................Start Media Scrin................. */
+/* Max-Width(1024px) */
+@media (max-width:1024px) {
+    /* Start About */
+    .about-container{
+    gap: 30px;
+    }
+    .basic-edu{
+        gap: 20px;
+    }
+    /* Start Experience */
+    .experience-container{
+        gap: 30px;
+    }
+    /* Start Projects */
+    .project-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+/* ..................End Media Scrin................. */
